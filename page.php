@@ -14,6 +14,10 @@
                 include "page/edit.php";
                 break;
 
+            case 'detail':
+                include "page/detail.php";
+                break;
+
             case 'hapus':
                 include "page/hapus.php";
                 break;

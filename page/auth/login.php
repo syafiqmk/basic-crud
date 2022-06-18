@@ -16,6 +16,7 @@
             if($row > 0) {
                 $d_u = mysqli_fetch_array($s_u);
 
+                $_SESSION["id"] = $d_u['id'];
                 $_SESSION["user"] = $d_u['username'];
                 $_SESSION["name"] = $d_u['name'];
 

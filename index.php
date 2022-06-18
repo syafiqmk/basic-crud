@@ -29,7 +29,7 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-md navbar-dark bg-primary">
         <div class="container">
-            <a class="navbar-brand" href="#">Procedural PHP CRUD</a>
+            <a class="navbar-brand" href="index.php?page=home">Procedural PHP CRUD</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
                 aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
