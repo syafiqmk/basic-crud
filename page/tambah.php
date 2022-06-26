@@ -4,7 +4,7 @@
     include "conf/konek.php";
 
     // proses tambah
-    $title = htmlspecialchars($_POST["title"]);
+    $title = htmlspecialchars(ucfirst($_POST["title"]));
     $body = htmlspecialchars($_POST["body"]);
     $date = date("Y-m-d H:i:s");
     $id_user = $_SESSION["id"];

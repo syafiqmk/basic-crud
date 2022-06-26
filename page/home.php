@@ -3,7 +3,8 @@
     // koneksi db
     include "conf/konek.php";
 
-    $s_d = mysqli_query($kon, "SELECT * FROM tb_crud ORDER BY id DESC");
+    $id_user = $_SESSION["id"];
+    $s_d = mysqli_query($kon, "SELECT * FROM tb_crud WHERE id_user = $id_user  ORDER BY id DESC");
 ?>
 
 <h1 class="text-center mt-4">Data List</h1>
